@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body id="top">
+  <header>
+    <center><h1>TextMate User Manual</h1></center>
+    <center>This document contains excerpts from the full manual.<br></center>
+
+  </header>
+  <center><h3>Table of Contents</h3></center>
+
+  <ul style="list-style-type: none;">
+    <h4><a href="#preface">1. Preface</a></h4>
+    <li>1.1 About the Documentation</li>
+    <li>1.2 Philosophy of TextMate</li>
+    <li>1.3 Terminology</li>
+    <li>1.4 Limitations</li>
+  </ul>
+
+  <ul style="list-style-type: none;">
+    <h4><a href="#working">2. Working with files</a></h4>
+    <li>2.1 Creating Projects (With Tabs)</li>
+    <li>2.1.1 Auto-Updating Projects</li>
+    <li>2.1.2 Filtering Unwanted Files</li>
+    <li>2.1.3 Text and Binary Files</li>
+    <li>2.1.4 Positioning the Project Drawer</li>
+    <li>2.2 Find and Replace in Projects</li>
+  </ul>
+
+  <ul style="list-style-type: none;">
+    <h4><a href="#navigation">3. Navigation / Overview</a></h4>
+    <li>3.1 Bookmarks</li>
+    <li>3.2 Collapsing Text Blocks (Foldings)</li>
+    <li>3.2.1 Customizing Foldings</li>
+    <li>3.3 Function Pop-up</li>
+    <li>3.3.1 Customizing the List</li>
+  </ul>
+
+  <ul style="list-style-type: none;">
+    <h4><a href="#text">4. Working With Text</a></h4>
+    <li>4.1 Auto-Paired Characters (Quotes etc.)</li>
+    <li>4.2 Completion</li>
+    <li>4.3 Copy and Paste</li>
+    <li>4.3.1 Clipboard History</li>
+    <li>4.3.2 Re-indented Paste</li>
+    <li>4.4 Editing Modes</li>
+    <li>4.5 Find and Replace</li>
+    <li>4.6 Moving Text</li>
+    <li>4.6.1 Increase/Decrease Indent Level</li>
+    <li>4.6.2 Move Text Up/Down/Left/Right</li>
+    <li>4.6.3 Re-indent Text</li>
+    <li>4.7 Selecting Text</li>
+    <li>4.7.1 Editing Multiple Lines</li>
+    <li>4.7.2 Column Selections</li>
+    <li>4.8 Column Movement / Typing</li>
+    <li>4.9 Smart Tab Behavior</li>
+    <li>4.10 Spell Checking</li>
+    <li>4.11 Using Spaces Instead of Tabs</li>
+  </ul>
+
+  <ul style="list-style-type: none;">
+    <h4><a href="#bundle">5. Bundles</a></h4>
+    <li>5.1 Activation of Bundle Items</li>
+    <li>5.2 Editing Default Bundles / Items</li>
+    <li>5.3 Deleting Default Bundles / Items</li>
+    <li>5.4 Hiding Bundles</li>
+    <li>5.5 Sharing Bundles and Bundle Items</li>
+    <li>5.6 Assorted Bundles</li>
+  </ul>
+
+  <hr>
+
+  <section id="preface"><h3>1. Preface</h3></section>
+  <div><h4>1.1 About the Documentation</h4></div>
+  <dd>The intended purpose of the documentation is to explain the main features of TextMate and to highlight features
+    that may not be obvious to first time users. The documentation is not exhaustive.
+    You should have a good understanding of what a text editor is, in particular you should have some experience with
+    Cocoa's text edit control (used in TextEdit, Mail and Xcode). While TextMate does not use that control, it does
+    mimic its behavior for the most part.
+    If you want to print this documentation then here is a printable version.</dd>
+
+  <div><h4>1.2 Philosophy of TextMate</h4></div>
+  <dd>From UNIX we get that Tasks and Trends Change. In concrete terms this means that instead of writing a command (in
+    UNIX) to solve the problem at hand, we find the underlying pattern, write a command to solve problems of that type
+    and then use that command in a script.
+    This gives us a command which we can re-use in the future for multiple problems of the same type. Since it is
+    generally much easier (and more flexible) to piece together a script of different commands than it is to write a
+    specific command the increase in productivity can be very large. This is especially true since we do not actually
+    write the command in the first place, we use an existing command that has already been written for this type of
+    problem.</dd>
+
+
+  <div><h4>1.3 Terminology</h4></div>
+  
+  <div><h4>1.4 Limitations</h4></div>
+
+  <hr>
+
+  <section id="working"><h3>2. Working With Multiple Files</h3></section>
+  
+  <div><h4>2.1 Creating Projects (With Tabs)</h4></div>
+  
+  <div><h4>2.1.1 Auto-Updating Projects</h4></div>
+  
+  <div><h4>2.1.2 Filtering Unwanted Files</h4></div>
+  
+  <div><h4>2.1.3 Text and Binary Files</h4></div>
+  
+  <div><h4>2.1.4 Positioning the Project Drawer</h4></div>
+  
+  <div><h4>2.2 Find and Replace in Projects</h4></div>
+  <ul> Using Edit → Find → Find in Project…(⇧⌘F) will bring up the window shown below.
+    <li>Find In Project. From here it is possible to search all (text) files in the current project and do replacements.
+    </li>
+    <li>After pressing Find it is possible to either press Replace All, or select which matches should be replaced, in
+      which case the Replace All button will change to Replace Selected.</li>
+    <li>Currently it is not possible to limit the scope of the search to anything other than all text files in the full
+      project.</li>
+    <li>As a workaround, when you want to search only a subset of your project, you can select the files you want to
+      search in the project drawer and drag the selection to the TextMate application icon to create a new scratch
+      project. A find/replace can then be performed on that project, which can then be closed.</li>
+  </ul>
+
+  <hr>
+
+  <section id="navigation"><h3>3. Navigation / Overview</h3></section>
+
+  <hr>
+
+  <section id="text"><h3>4. Working With Text</h3></section>
+  <dd><p>TextMate tries for the most part to mimic the behavior of the NSTextView system component, as used by applications
+    such as Mail, Safari and basically all other Cocoa applications. 
+    Some of the extra features related to text editing are covered in this section.</p></dd>
+
+  <div><h4>4.1 Auto-Paired Characters (Quotes etc.)</h4></div>
+  <dd><dl><p>When writing structured text (like markup or source code) there are characters which go together in pairs.
+   <dt>For example in a programming language</dt>
+    <dd>you rarely type an opening brace ({) without also needing the closing brace (}).</dd>
+    <dd>To help you keep these characters balanced, TextMate will insert the appropriate closing character after the
+      caret when you type the opening one.</dd>
+    <dd>If you type the closing character TextMate is smart enough to overwrite the auto-inserted one.</dd>
+    <dd>If you type an opening character and then delete it using backward delete (⌫) then the auto-inserted character
+      will also be deleted. If you only want to delete the auto-inserted character, use forward delete instead (⌦).
+  <dt>It is also possible to wrap a selection in an open/close character by selecting text and typing the opening character.</dt>
+    <dd> For example if you type foo, select it and type ( then TextMate will make it (foo) placing the caret after the
+      ending parentheses.</dd>
+    <dt> The actual character pairs are defined in the bundle preferences with different settings for different
+      languages and contexts. </dt>
+    <dd>For example, in source code an apostrophe is set up to have itself as a closing character, except for comments
+      and strings. This is achieved using scope selectors.</dd>
+    <dt>Two useful shortcuts in relation to auto-paired characters (defined as macros in the Source bundle and
+      overridden for a few languages) are: ⌘↩ Move to the end of the line and insert a newline.</dt>
+    <dd>For example if you write: print("foo Then you will have ") to the right of the caret and can now use ⌘↩ to skip
+      these two characters and insert a new line. ⇧⌘↩ Move to the end of the line, insert a ; and then insert a newline.
+    </dd></dl></dd>
+
+  <div><h4>4.2 Completion</h4></div>
+  <dd>TextMate has a simple yet effective completion function on ⎋ (escape). It will complete the current word based on
+    matches in the current document. If there are multiple matches, you can cycle through these by pressing ⎋
+    continuously. It is also possible to cycle backwards using ⇧⎋.
+    The matches are sorted by distance from the caret, meaning candidates which are closer to the caret will be
+    suggested before candidates farther away.</dd>
+
+  <div><h4>4.3 Copy and Paste</h4></div>
+
+  <div><h4>4.3.1 Clipboard History</h4></div>
+  <dd>Each time you copy or cut text, the text is pushed onto a stack.
+    By pressing ⌃⌥⌘V you will see the list of all previous clippings and can pick the one you want to paste using arrow
+    keys. Use return to insert it and escape to dismiss the list. If you dismiss the list, the currently selected
+    clipping will be what gets pasted the next time you use the paste function.</dd>
+
+  <div><h4>4.3.2 Re-indented Paste</h4></div>
+  <dd> When pasting text, TextMate will estimate the indent of the text pasted as well as the current indent level and
+    adjust the pasted text so that it matches the current indent.
+    The estimates are done using the indentation rules mentioned in the Re-Indent Text section.
+    If you temporarily want to avoid this you can paste text using ⌃⌘V. You can also permanently disable re-indented
+    pasting in the Text Editing part of the Preferences.</dd>
+
+  <div><h4>4.4 Editing Modes</h4></div>
+
+  <div><h4>4.4.1 Freehanded Editing</h4></div>
+  <dd>You can enable or disable freehanded editing in the Edit → Mode submenu (⌥⌘E).
+    With this mode enabled caret movement will not be restricted by line endings or tab stops.
+    This is useful when working with ASCII diagrams, when inserting something at a given column on several lines (and
+    you do not want to insert the padding) and in a few other situations.
+    When making column selections freehanded mode is (temporarily) enabled, allowing you to make selections past the end
+    of lines.
+    It is also possible to place the caret beyond the end of a line by single-clicking the mouse while holding down the
+    option key (⌥).</dd>
+
+  <div><h4>4.4.2 Overwrite Mode</h4></div>
+  <dl><dd>By enabling overwrite mode in the Edit → Mode submenu (⌥⌘O) characters already in the document will be overwritten
+    as you type rather than inserted as normal.
+  <dl>This is useful when working with column data, e.g.:
+  <dd>foo</dd>
+  <dd>jaz</dd>
+  <dd>bar</dd>
+  <dd>sub</dd>
+  <dd>fud</dd>
+  <dd>dub</dd>
+  Imagine we want to overwrite some of the values in the first column. Somewhat similarly, we may have a line of a fixed
+  width and want to replace part of it but preserve the width, for example we could have code like this where we must
+  right-align the value to column 20 but want to overwrite the label:
+  printf("Value is %3d", 37).</p></dd></dl>
+
+  <div><h4>4.5 Find and Replace</h4></div>
+  <dd>In addition to the standard find dialog, TextMate has a Find submenu (located in the Edit menu) which gives you key
+    equivalents for find and replace actions.
+    Find Menu</dd>
+
+  <div><h4>4.6 Moving Text</h4></div>
+
+  <div><h4>4.6.1 Increase/Decrease Indent Level</h4></div>
+  <dd>In the Text menu there is a Shift Left and Shift Right action bound to ⌘[ and ⌘]. These will increase and decrease
+    the indent by the size of one tab.
+    On many european key layouts these keys are rather awkward, so in addition to these, you can also use ⌥⇥ and ⌥⇤
+    (where ⇤ is achieved using ⇧⇥).</dd>
+
+  <div><h4>4.6.2 Move Text Up/Down/Left/Right</h4></div>
+  <dd>If you want to move a line/block up/down a few lines or move a word/column selection, it can be done by holding
+    down ⌃⌘ and using the arrow keys to move the selection around. It also works for moving lines up/down without a
+    selection.</dd>
+
+  <div><h4>4.6.3 Re-indent Text</h4></div>
+  <dd>If you have code which has broken indent, you can select it and use Text → Indent Selection (without a selection it
+    indents the current line).
+    The rules for estimating the indent are setup per-language using bundle preferences. For more details see the
+    indentation rules section.</dd>
+
+  <div><h4>4.7 Selecting Text</h4></div>
+  <dd>Selecting text is achieved by holding down ⇧ while using the normal movement keys. In addition the Edit → Select
+    submenu has actions to select current word, line, paragraph, enclosing brackets and entire document.</dd>
+
+  <div><h4>4.7.1 Editing Multiple Lines</h4></div>
+  <dd>Sometimes there is a need for adding a suffix to lines of variable length, or maybe editing the last part of these
+    lines.
+    Although you can use find and replace for this, an easier way is to select the lines that needs to be edited, then
+    use Text → Edit Each Line in Selection (⌥⌘A) and the caret will be placed at the end of the first line in the
+    selection.
+    You can now type new text, delete text or go back and edit existing text and this will be mirrored down through all
+    the (previously selected) lines. To leave this mode, simply move the caret away from the current line.</dd>
+
+  <div><h4>4.7.2 Column Selections</h4></div>
+
+  <div><h4>4.8 Column Movement / Typing</h4></div>
+  <dd><p>Using arrow up/down with ⌥ will move the caret to the first/last row in the current column. Hold down ⇧ to get it
+    selected.</p>
+  <dl>
+    <dt>Column Data <dd>For example if you have column data as shown above with the caret in front of foo, press ⌥⇧↓ and it
+      will move the caret down in front of fud and leave the text between foo and fud selected.</dd></dt>
+    <dt>Column Movement <dd>You may now either want to press ⌥ once to switch to a zero-width column selection, then start
+      typing to type on each line.</dd></dt>
+    <dt>Column Typing <dd>Alternatively use ⌥⇧→ and then ⌥ to leave the entire column selected (in column mode).</dd></dt>
+    <dt>Column Selection</dt>
+  </dl></dd>
+
+  <div><h4>4.9 Smart Tab Behavior</h4></div>
+  <dd>When using the tab key at the beginning of a line, TextMate will insert as many tabs as it estimates to be correct
+    for that line. If the line already has text the caret will move to the front of this text.
+    If the line already has the correct indent (or above) a single tab will be inserted.</dd>
+
+  <div><h4>4.10 Spell Checking</h4></div>
+  <dd>TextMate supports the system wide 'Check Spelling as You Type'. This can be changed in the Edit → Spelling submenu.
+    You can bring up the context sensitive menu for a misspelled word to get spelling suggestions.
+    Since TextMate is intended for structured text it is possible to exclude parts of the document from being checked.
+    This is done by creating a preferences item in the bundle editor, setting spellChecking to 0 and filling in the
+    scope selector with the selector to target for no spell checking.
+    By default spell checking is disabled for source code except strings and comments and also for keywords, tags and
+    similar in HTML, LaTeX, Markdown, etc.</dd>
+
+  <div><h4>4.11 Using Spaces Instead of Tabs</h4></div>
+
+  <hr>
+
+<a href="#top">Back to me<3</a>
+<section id="bundle"></section>
+
+</body>
+
+</html>
